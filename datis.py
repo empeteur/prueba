@@ -1,5 +1,5 @@
 import csv
-with open ("Incidencia_casos.csv","r") as f:
+with open ("pop.csv","r") as f:
     red=csv.reader(f,delimiter=",")
     D=0
     for i in red:
